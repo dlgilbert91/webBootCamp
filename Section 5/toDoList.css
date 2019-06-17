@@ -1,0 +1,15 @@
+li {
+    color: red;
+}
+
+#final {
+    color: blue;
+}
+
+.highlighted {
+    background: yellow;
+}
+
+.completed {
+    text-decoration: line-through;
+}
