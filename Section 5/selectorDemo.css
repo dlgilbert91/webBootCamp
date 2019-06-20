@@ -1,0 +1,28 @@
+h1 {
+    background-color: blue;
+}
+
+/* Star Selector - Selects Everything On The Page*/
+* {
+    border: 1px solid lightblue;
+}
+
+/* Descendant Selector - eg select anchor tags inside of an li */
+li a {
+    color: red;
+}
+
+/* Adjacent Selector - Select elements that come after another element. eg all uls that come after a h4 */
+h4 + ul {
+    color: blueviolet;
+}
+
+/* Attribute Selector - Select elements based off any attribute. Eg all hrefs links that are google. Or all password fields for example input[type="text"] would do all text inputs*/
+a[href="http://www.google.com.au"] {
+    background-color: deeppink;
+}
+
+/* nth Of Type - Select every nth of an element. Eg every second li or every 5th div. It is not every third it would be every third in a group. Eg if had 9 li in 1 ul. Would only select 3rd from group. To select every second can use 'even' as the number in the function */
+li:nth-of-type(2) {
+    color: yellow;
+}
