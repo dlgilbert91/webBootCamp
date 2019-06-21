@@ -1,0 +1,16 @@
+p {
+    /* Content (Element) - Width and Height */
+    width: 50%;
+
+    /* Border */
+    border: 2px solid red;
+
+    /* Padding */
+    padding: 10px;
+
+    /* Margin */
+    /* margin: 20px; */
+    /* margin-top: 20px; */
+    /* margin: 20px 40px 100px 10px; */
+    margin: 0 auto 0 auto;
+}
